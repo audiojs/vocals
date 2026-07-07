@@ -1,19 +1,30 @@
 {
   "name": "@audio/vocals-isolate",
-  "version": "0.0.0",
-  "description": "Vocal isolation — mid (center) channel extraction",
+  "version": "1.0.0",
+  "description": "Vocal isolation — mid (center) extraction from stereo",
   "type": "module",
   "sideEffects": false,
-  "private": true,
+  "main": "isolate.js",
+  "exports": {
+    ".": "./isolate.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "isolate.js"
+  ],
   "keywords": [
     "audio",
     "dsp",
     "vocals",
-    "isolate"
+    "isolate",
+    "center-channel"
   ],
   "license": "MIT",
   "author": "Dmitry Iv. <dfcreative@gmail.com>",
   "engines": {
     "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
