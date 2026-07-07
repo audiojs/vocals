@@ -1,0 +1,19 @@
+{
+  "name": "@audio/vocals-remove",
+  "version": "0.0.0",
+  "description": "Vocal removal — side extraction (karaoke, SoX `oops`)",
+  "type": "module",
+  "sideEffects": false,
+  "private": true,
+  "keywords": [
+    "audio",
+    "dsp",
+    "vocals",
+    "remove"
+  ],
+  "license": "MIT",
+  "author": "Dmitry Iv. <dfcreative@gmail.com>",
+  "engines": {
+    "node": ">=18"
+  }
+}

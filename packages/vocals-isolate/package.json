@@ -1,0 +1,19 @@
+{
+  "name": "@audio/vocals-isolate",
+  "version": "0.0.0",
+  "description": "Vocal isolation — mid (center) channel extraction",
+  "type": "module",
+  "sideEffects": false,
+  "private": true,
+  "keywords": [
+    "audio",
+    "dsp",
+    "vocals",
+    "isolate"
+  ],
+  "license": "MIT",
+  "author": "Dmitry Iv. <dfcreative@gmail.com>",
+  "engines": {
+    "node": ">=18"
+  }
+}
