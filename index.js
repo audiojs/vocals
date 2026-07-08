@@ -1,4 +1,4 @@
-// @audio/vocals — vocal isolation/removal umbrella re-exporting every @audio/vocals-* atom.
+// @audio/vocals — center-channel vocal isolation / removal.
 
-export { default as isolate } from '@audio/vocals-isolate'
-export { default as remove } from '@audio/vocals-remove'
+export { default as isolate } from './isolate.js'
+export { default as remove } from './remove.js'

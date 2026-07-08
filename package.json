@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "sideEffects": false,
-  "description": "Vocal isolation & removal — umbrella for @audio/vocals-* atoms",
-  "workspaces": [
-    "packages/*"
-  ],
+  "description": "Center-channel vocal isolation & removal",
   "keywords": [
     "audio",
     "dsp",
@@ -22,19 +19,21 @@
   "main": "index.js",
   "exports": {
     ".": "./index.js",
+    "./audio-module": "./audio-module.js",
     "./package.json": "./package.json"
   },
+  "audio-module": "./audio-module.js",
   "files": [
-    "index.js"
+    "index.js",
+    "isolate.js",
+    "remove.js",
+    "audio-module.js"
   ],
   "scripts": {
-    "test": "node test.js",
-    "test:all": "npm test --workspaces --if-present && npm test",
-    "publish:all": "npm publish --workspaces && npm publish"
+    "test": "node test.js"
   },
   "dependencies": {
-    "@audio/vocals-isolate": "^1.0.0",
-    "@audio/vocals-remove": "^1.0.0"
+    "@audio/spatial-midside": "file:../spatial/packages/spatial-midside"
   },
   "devDependencies": {
     "tst": "^9.4.0"
