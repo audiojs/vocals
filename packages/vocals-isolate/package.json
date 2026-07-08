@@ -8,11 +8,11 @@
   "exports": {
     ".": "./isolate.js",
     "./package.json": "./package.json",
-    "./am": "./am.js"
+    "./audio-module": "./audio-module.js"
   },
   "files": [
     "isolate.js",
-    "am.js"
+    "audio-module.js"
   ],
   "keywords": [
     "audio",
@@ -29,5 +29,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "audio-module": "./am.js"
+  "audio-module": "./audio-module.js"
 }
