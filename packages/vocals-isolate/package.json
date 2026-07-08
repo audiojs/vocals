@@ -1,16 +1,18 @@
 {
   "name": "@audio/vocals-isolate",
   "version": "1.0.0",
-  "description": "Vocal isolation — mid (center) extraction from stereo",
+  "description": "Vocal isolation \u2014 mid (center) extraction from stereo",
   "type": "module",
   "sideEffects": false,
   "main": "isolate.js",
   "exports": {
     ".": "./isolate.js",
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./am": "./am.js"
   },
   "files": [
-    "isolate.js"
+    "isolate.js",
+    "am.js"
   ],
   "keywords": [
     "audio",
@@ -26,5 +28,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "audio-module": "./am.js"
 }
