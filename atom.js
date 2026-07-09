@@ -1,4 +1,4 @@
-// audio-module manifest — center isolation, the channel-coupled case: stereo in, mid out.
+// atom manifest — center isolation, the channel-coupled case: stereo in, mid out.
 
 export const isolate = (ctx) => (inputs, outputs) => {
 	const inp = inputs[0], out = outputs[0]
