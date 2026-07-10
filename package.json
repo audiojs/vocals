@@ -1,6 +1,6 @@
 {
   "name": "@audio/vocals",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "sideEffects": false,
   "description": "Center-channel vocal isolation & removal",
@@ -19,14 +19,14 @@
   "main": "index.js",
   "exports": {
     ".": "./index.js",
-    "./atom": "./atom.js",
+    "./audio": "./audio.js",
     "./package.json": "./package.json"
   },
   "files": [
     "index.js",
     "isolate.js",
     "remove.js",
-    "atom.js"
+    "audio.js"
   ],
   "scripts": {
     "test": "node test.js"
@@ -40,5 +40,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "atom": "./atom.js"
+  "audio": "./audio.js"
 }
