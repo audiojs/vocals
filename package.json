@@ -1,6 +1,6 @@
 {
   "name": "@audio/vocals",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "sideEffects": false,
   "description": "Center-channel vocal isolation & removal",
@@ -24,10 +24,12 @@
   },
   "files": [
     "index.js",
+    "index.d.ts",
     "isolate.js",
     "remove.js",
     "audio.js"
   ],
+  "types": "index.d.ts",
   "scripts": {
     "test": "node test.js"
   },
@@ -44,5 +46,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/audiojs/vocals.git"
-  }
+  },
+  "funding": "https://github.com/sponsors/audiojs"
 }
